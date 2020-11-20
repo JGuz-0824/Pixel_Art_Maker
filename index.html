@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Paint A Picture</title>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Akronim"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>
+      <span class="title">Express Your Art!</span>
+    </h1>
+
+    <h2>
+      <span class="chooseGrid">Choose Your Desired Grid Size</span>
+    </h2>
+    <form id="sizePicker">
+      Grid Height:
+      <input type="number" id="inputHeight" name="height" min="1" value="1" />
+      Grid Width:
+      <input type="number" id="inputWidth" name="width" min="1" value="1" />
+      <input id="submitGrid" type="submit" />
+    </form>
+
+    <h2>
+      <span class="chooseColor">Choose Your Color</span>
+    </h2>
+    <input type="color" id="colorPicker" />
+
+    <h2>
+      <span class="create">Now, Create Your Masterpiece!</span>
+    </h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
