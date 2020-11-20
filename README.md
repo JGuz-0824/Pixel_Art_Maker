@@ -6,7 +6,7 @@ Feel free to be as creative as possible when creating your masterpiece!
 
 ## Installation
 
-- **Download** the zip folder.
+- **Clone** all files.
 - Open with **code editer** of choice.
 - Open HTML in any of the various **web browsers**.
 
